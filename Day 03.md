@@ -199,11 +199,5 @@ Nice work today, everyone! That was a long demo, but I'm glad you guys were good
 
 2. **Website Research and Analysis**
 
-	Find one website whose ***interactions*** you like and one you don't, and write five reasons for each site on why you think they are either good or bad. Post these writings, along with screenshots illustrating your points and links to the sites, to the blog.
-
-3. **jQuery ExTrA CrEdiT!!!!**
-
-	For any of you who are interested in learning more about jQuery or want to get a small bump in their grade, finish the first two [jQuery lessons](http://www.codecademy.com/tracks/jquery) (Introducing jQuery and jQuery Functions), and post a screen shot of your completed lessons to the blog. Like so:
-	
-	<img src="http://teaching.thomhines.com/resources/Codecademy%20Example.png">
+	Find one website whose ***interactions*** you like and one you don't, and write five reasons for each site on why you think they are either good or bad. Post these writings—along with screenshots illustrating your points and links to the sites—to the blog.
 	

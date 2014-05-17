@@ -1,124 +1,64 @@
 ART 342 - Day 7
 =======================================
 
-1. Parallax Demo
-4. Work Session
+1. jQuery functions lesson
+2. Programming Basics presentation
+4. Annotated Comps
+5. Work Session
+
 
 PREP
 ---------------------------------------
-- Load up links
-
-- Link to Parallax Example Site files on blog
-
-- [Non-Completed Parallax Demo Files](http://teaching.thomhines.com/resources/parallax_empty.zip)
-- [Completed Parallax Demo Files](http://teaching.thomhines.com/resources/parallax_complete.zip)
-
+- Create HTML/JS/JQUERY combo for demonstrating JS
+- Load up http://www.codecademy.com/tracks/javascript
+- Post Objectives Questionnaire to blog
 
 
 CLASS
 ---------------------------------------
 
 
+### Quiz
+- Good/Bad Site characteristics?
+
+[CSS Selectors Quiz](http://codepen.io/thomhines/pen/BzntC) based on [CSS Diner](http://flukeout.github.io/)
+- How do I select all of the list items?
+- How do I select the ".important" items?
+- How can I select those that are both ".important and .irrelevant?
+- How can I select just the first item? The last? The fourth?
+- Every other item? Only even ones? Only odd ones?
 
 
-
-### Paralax Workshop
-based on [tutsplus article](http://webdesign.tutsplus.com/tutorials/complete-websites/create-a-parallax-scrolling-website-using-stellar-js/)
-
-
-- Show off [completed Parallax demo site](http://web.pdx.edu/~thines/342/parallax_complete)
-- Download [non-completed Parallax demo site](http://teaching.thomhines.com/resources/parallax_empty.zip)
-
-- Describe jQuery plugins
-	- Stellar
-	- scrollTo
-	- waypoint
-	- jQuery UI
-
-#### Parallax 
-
-- $(window).stellar();
-	- Link to JS
-	- Add `$(window).stellar()` to scripts.js
-- HTML
-		
-		<div class="item item1" data-stellar-ratio=".6">ITEM</div>
-		<div class="item item2" data-stellar-ratio=".8">ITEM</div>
-		<div class="item item3" data-stellar-ratio="1.2">ITEM</div>
-		<div class="item item4" data-stellar-ratio="1.4">ITEM</div>
-		<div class="item item5" data-stellar-ratio="1.6">ITEM</div>	
-	
-#### ScrollTo
-- $(window).scrollTo();
-	- Link to JS
-	- Add:
-
-			$('.page2_link').click(function() {
-				$(window).scrollTo('#page2', 800);
-			});
-
-#### Waypoint
-- $('#page2').waypoint
-	- Link to JS
-	- Add: 
-	
-			$('#page2').waypoint(function (direction) {
-				$('nav a').removeClass('selected');
-				$('.page2_link').addClass('selected');
-			});
-
-	- Hide box on page2 and show it via waypoint:
-
-			$('.fadeIn').hide();
-			
-			waypoint(function() {
-				$('.fadeIn').fadeIn();
-			}
-
-	- Add `direction == 'down'` and `else`, so that code looks like this
-
-			
-			$('#page2').waypoint(function (direction) {
-				$('nav a').removeClass('selected');
-				if (direction === 'down') {
-					$('.page2_link').addClass('selected');
-					$('.fadeIn').fadeIn();
-				} else {
-					$('.page1_link').addClass('selected');
-				}
-			});
-		
-	- If scrollto isn't lining up, add offset:
-	
-			$(window).scrollTo('#page2', 800, {offset: 3});
-			
-			
-			
-
-<!--
-#### jQuery UI for nav animations (optional) 
-- Add jQuery UI
-- update addClass, removeClass
-	$('nav a').removeClass('selected', 200);
+### JS Demo
+[CodePen](http://codepen.io/thomhines/pen/mcKzt/) ([Completed CodePen](http://codepen.io/thomhines/pen/JqbLo/))
 
 
--->
+### Annotated Comps
+- Details: type, color, sizes, margins, etc.
+- Structure: sections and divs
+- Labeling: Pick which elements/class names to use for each block on the page
 
-
-### Work Session
-
+### Group Discussions (while I meet 1-on-1)
 
 
 HW
 ---------------------------------------
-1. **Refine Design**
-	
-	Take care of any last minute changes you have to make. Really, you should be done with this, but I know how designers are, so just do what you can to wrap things up. THERE SHOULD BE NO SIGNIFICANT CHANGES. Take a deep breath, hit Save, and move on.
+Good thing we're done with these candidate lectures just as we're starting to code! We'll be doing one more demo this week, but for the rest of the project we'll be focusing on developing the sites you've been designing. We still have a while before this project is due, but don't slow down now! The hardest and most time consuming parts almost always come at the end.
 
-2. **Finish HTML and Basic CSS**
-	
-	All of your HTML should be done, and enough CSS that your site looks recognizable. If there are some things that are broken or some obscure styles that aren't in place, no biggie, but you want to be as close to done as you can be. Upload your work-in-progress site and post a link to the blog.
 
-2. **Begin Working With Javascript**
-	
-	Don't wait for next class to get started playing with your interactions. Set up your .js file, load up jQuery, and try getting the hang of all the plugins you might want to use. No doubt people will run into problems so better to run into them sooner rather than later!
+1. **Annotated Comps**
+
+	Remember, the three things that you should mark up in your annotated comps are:
+		- Details: type, color, sizes, margins, etc.
+		- Structure: sections and divs
+		- Labeling: Pick which elements/class names to use for each block on the page
+
+
+2. **HTML/CSS**
+
+	If you haven't already started on it, now is the time to start coding this thing. You should have your HTML done for all of your pages by next class (don't worry! Like always, you can change it later), and if you have time, start working on your CSS.
+
+
+3. **Codecademy Javascript Lessons**
+
+	Go through the first two series of exercises (under the '[Introduction to Javascript](http://www.codecademy.com/tracks/javascript)' section) on Codecademy. The exercises will guide you through if statements, variables, and so on, as well as a few fun new tools like console.log. Once you're done with these, post a screen shot of the Javascript page with the completed tracks checked off to the blog.

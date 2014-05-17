@@ -107,12 +107,18 @@ Here's why we're not using it:
 HW
 ---------------------------------------
 
-**IMPORTANT NOTE:** Don't forget, we'll be meeting next class in AB 320 for the first hour of class to attend Jason Santa Maria's Show & Tell Lecture. Give yourself a reminder! Don't be late!
+Next class is cancelled, so don't come to class unless you want to meet your classmates and get direct feedback on your work. You'll have to arrange this yourselves, of course.
+
+1. **Project 1 Self-Evaluation**
 
 1. **Rough Comps**
 
 	We didn't get a chance today to talk about your wireframes so far, but we will be devoting the majority of class next time to discussing your work so far. Don't start jumping ahead yet; stay focused on getting the best designed site you can. Using your wireframes, start to play around with the look and feel of your sites. 
 	
 	Instead of focusing on filling in the details at this point, I want you to explore a breadth of design options in low fidelity. Create at least three distinct, rough design directions by next class. 
+
+2. **Comment on Three People's Designs**
+
+	After you've posted your work, comment on three other people's designs. If someone already has three comments, choose someone else. I want to see at least two paragraphs per review. Then, make a quick post with the list of who you reviewed so I can check that you've done it.
 
 

@@ -17,11 +17,15 @@ CLASS
 ### Quiz
 - What is the name of the "tool" we use in CSS to make sites responsive?
 	- How do we use it?
-
 - How big is a box set with width at 300px, padding at 20px, and border at 5px?
 	- How can we get our box to *actually* be 300px wide?
-- How do we adjust the position of an absolutely positioned element in our CSS? 
+- How do we make a two column layout?
+- How do we stack two items on top of each other?
+- How do we absolutely position one element inside of another?
+- What CSS properties do we adjust the position of an absolutely positioned element in our CSS? 
 	- Relatively positioned?
+- What is clearfix?
+
 
 ### Housecleaning
 - Any Questions from last time?
@@ -77,6 +81,10 @@ Make a list of common things that are good and bad on the board
 ### Break
 
 
+### Responsive Design (because we didn't cover this last time)
+
+- Download completed layout demo
+- Add media queries
 
 
 ### SVG Images

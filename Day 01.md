@@ -89,6 +89,7 @@ If anybody has questions about these things, you can go over them in [CodePen](h
 
 Real World Examples:
 
+- [Aquatalis Expedition](http://aquatilis.tv/)
 - [Head2Heart](http://www.head2heart.us/)
 - [Energy Trust of Oregon](http://energytrust.org/timeline/)
 - [xkcd](http://xkcd-map.rent-a-geek.de/#10/1.0999/0.2005)
