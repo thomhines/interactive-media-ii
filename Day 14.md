@@ -1,4 +1,4 @@
-ART 342 - Day 14
+Day 14
 =======================================
 
 1. Discuss Product Websites Ideas
@@ -13,67 +13,24 @@ PREP
 CLASS
 ---------------------------------------
 
+### No class?
 
-### SHOW AND TELL WITH JASON SANTA MARIA!
-
-### Setting Up Hosting
-
-- Where to go
-	- Types of hosting plans
-		- shared
-		- dedicated
-		- cloud
-			- Rackspace
-			- Amazon Web Services
-	- I use [Site5](http://www.site5.com/)
-	- Top hosting plans 
-		- [Lifehackers picks](http://lifehacker.com/5912254/most-popular-web-hosting-company-dreamhost)
-		- [PRChecker](http://www.prchecker.info/top-10-web-hosting.php)
-		
-- What to look for
-	- PHP (preferably support for ver. 5.3 or better)
-	- MySQL
-	- Bandwidth
-	- Space
-	- Domains
-	- Server load
-	- Price
-	- Extras? 1-click installs, python, ruby on rails, SSH
-
-- Signing Up
-
-- [cPanel](http://backstage.site5.com/)
-	- Email Accounts
-	- FTP Accounts
-	- MySQL Databases
-	- Addon Domains
-	- Subdomains
-
-	
+### Group Crits
+While I meet one-on-one with students
 
 ### Work Session
+
 
 
 HW
 ---------------------------------------
 
-1. **Finish Designs**
+1. **Designs All Pages**
 
-	Finish the designs for *all* of your pages. Don't start coding your site until you've collected all of your content and designed every detail. Yes, you may change your mind later in the process, but the more you decide in Photoshop/Illustrator, the easier it will be to make your site work the first time.
+	Finish the designs for *all* of your pages. We'll be refining our ideas next week, so they don't have to be done done. Just make sure you have a solid foundation for building your site. And, of course, the more complete the better.
 
-	
-2. **Annotated Comps**
 
-	You can either do this on your computer or by printing out your comps and scanning them in (my preferred way, since it is faster), and post them to the blog. Remember, you want to mark up these three things:
-	
-	- Details such as font, font size, colors, margins, paddings, etc. 
-	
-	- Define related sections of your site. For instance, group your header info together, and if your main content area has a box inside of it with three text elements and two images, put a div around it to keep them all together.
-	
-	- Start to label what elements/classes you will use for each section and element (eg. "h1", "header", ".sidebar"). The more you do now, the easier it will be to start coding.
-	
-
-3. **Review a Product Website**
+2. **Review a Product Website**
 
 	Pick a website that sells a physical product, and review it from a design and marketing perspective. Some questions you might consider answering:
 

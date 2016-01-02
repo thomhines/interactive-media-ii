@@ -17,7 +17,7 @@ CLASS
 - Discuss Project 2
 - Show examples
 	- [coin](https://onlycoin.com/)
-	- [Goldee](http://getgoldee.com/)
+	- [Goldee](http://web.archive.org/web/20140701032202/http://getgoldee.com/)
 	- [Andy's Moog site](http://andobe.com/moog/)
 	- [Savannah's Lanikai site](http://web.pdx.edu/~savj/lanikaiSite/)
 	- [Michelle's Swiss Army Knife site](http://web.pdx.edu/~mml2/swiss1/index.html)

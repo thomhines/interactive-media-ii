@@ -1,4 +1,4 @@
-ART 342 - Day 3
+Day 3
 =======================================
 
 1. Positioning Presentation
@@ -32,6 +32,15 @@ CLASS
 **MAKE SURE TO POST THUMBNAILS WITH EACH POST!**
 
 
+### jQuery plugin round-up???
+- [impress.js](http://bartaz.github.io/impress.js/#/bored)
+- [skrollr](http://prinzhorn.github.io/skrollr/)
+- [waypoints](http://imakewebthings.com/waypoints/)
+- [stellar](http://markdalgleish.com/projects/stellar.js/)
+- [scrollto](http://demos.flesler.com/jquery/scrollTo/)
+- [vide](http://vodkabears.github.io/vide/)
+- [texttailor](http://jpntex.com/texttailor/)
+- masonry
 
 
 
@@ -147,7 +156,7 @@ Other Options:
 - What is the primary objective of your site? Do you have other goals?
 - Who is your audience?
 - What is the overall tone that you want to convey?
-- What is the main form of interaction you want to explore? (How can you express your subject/tone through click-and-drag? scrolling? click-and-hold? hovering? hiding/revealing?)
+- What is the main form of interaction you want to explore? (How can you express your subject/tone through click-and-drag? scrolling? click-and-hold? hovering? hiding/revealing? typing?)
 - How can the user express him/herself within a site about your subject?
 - Is there a particular environment/context that your site would be best in?
 
@@ -162,15 +171,16 @@ Go around to each group and try to hear what students are doing.
 
 ### Wireframes/Sketchboards
 
+- [A Beginner’s Guide to Wireframing](http://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399)
+
+- [Wireframe Examples on Pinterest](https://www.pinterest.com/wireframes/great-wireframe-examples/)
+
+
 Start with [Sketchboards](http://www.adaptivepath.com/ideas/sketchboards-discover-better-faster-ux-solutions).
 
 - Multi-page boards for divergent sketching. ([Example](http://www.adaptivepath.com/uploads/archive/images/publications/essays/sketchboard/ap_multipage_sketchboard_template_example.pdf))
 
 - Single-page boards for exploring one idea more deeply. ([Example](http://www.adaptivepath.com/uploads/archive/images/publications/essays/sketchboard/ap_singlepage_sketchboard_template_example.pdf))
-
-
-- Next, higher fidelity wireframes
-	[Design Better, Faster with Rapid Prototyping](http://www.smashingmagazine.com/2010/06/16/design-better-faster-with-rapid-prototyping/)
 
 
 - Tools
@@ -179,8 +189,8 @@ Start with [Sketchboards](http://www.adaptivepath.com/ideas/sketchboards-discove
 	- [http://keynotopia.com/](Keynotopia)
 	- [Keynote Kung Fu](http://keynotekungfu.com/)
 	- Pen and Paper 
+	- [UI Tiles](http://pixelbuddha.net/freebie/ui-tiles-website-flowcharts)
 		
-- [Examples](http://speckyboy.com/2011/05/29/20-effective-examples-of-web-and-mobile-wireframe-sketches/)
 
 
 **Lets take 30 minutes to start sketching this stuff.** 
@@ -191,13 +201,32 @@ Start with [Sketchboards](http://www.adaptivepath.com/ideas/sketchboards-discove
 
 HW
 ---------------------------------------
-Nice work today, everyone! That was a long demo, but I'm glad you guys were good sports about it. If you didn't get it fully working, or if you just want to be able to look at the completed version for reference, I've included that version as well to the Resources page. Have a great evening and I'll see you Thursday!
+Nice work today, everyone! You guys seem to be getting this stuff pretty easily. If you didn't get the demo fully working, or if you just want to be able to look at the completed version for reference, I've included that version as well on the Resources page. Have a great evening and I'll see you Wednesday!
 
-1. **Wireframes**
+
+1. **Website Research and Analysis**
+
+	Find one website whose ***interactions*** you like and one you don't, and write five reasons for each site on why you think they are either good or bad. Try to find a site with non-standard inputs that go beyond just pointing and clicking or scrolling in a conventional way. Post these writings—along with screenshots illustrating your points and links to the sites—to the blog.
+
+
+2. **Wireframes**
 	
-	I would like to see at least three distinct directions of wireframes, with at least three major pages or page states per direction. These should be detailed enough and annotated to allow for someone like me to be able to be able to understand them without you having to sit there and explain them. Post them to the blog. (And if you want some good suggestions on how to make good wireframes, take special note of the suggestions presented [here](http://speckyboy.com/2011/05/29/20-effective-examples-of-web-and-mobile-wireframe-sketches/))
+	I would like to see at least three distinct directions of wireframes, with at least three types of interactions per direction. How can you express your narrative's subject/tone through click-and-drag? scrolling? click-and-hold? hovering? hiding/revealing? typing? Post them to the blog. 
 
-2. **Website Research and Analysis**
 
-	Find one website whose ***interactions*** you like and one you don't, and write five reasons for each site on why you think they are either good or bad. Post these writings—along with screenshots illustrating your points and links to the sites—to the blog.
+3. **Mood Boards**
+	
+	I want to see at least 20 pieces of inspiration that you want to use as a jumping off point for your narrative site. These can be typography, color palettes, other sites, nice interactions, styles, images, text, whatever. Of course, post these to the blog.
+
+
+4. **Do CSS Diner**
+
+	Do all the exercises at [CSS Diner](http://flukeout.github.io/) and post a screenshot of the final page to the blog. Don't worry; it's fun!
+
+
+
+### Useful Links
+- [A Beginner’s Guide to Wireframing](http://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399)
+- [Wireframe Examples on Pinterest](https://www.pinterest.com/wireframes/great-wireframe-examples/)
+- [UI Tiles](http://pixelbuddha.net/freebie/ui-tiles-website-flowcharts)
 	

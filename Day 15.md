@@ -1,4 +1,4 @@
-ART 342 - Day 15
+Day 15
 =======================================
 
 1. Discuss Product Websites Ideas
@@ -13,15 +13,13 @@ PREP
 CLASS
 ---------------------------------------
 
-### Housekeeping
+### Housecleaning
+- Discuss how to do better JS debugging
+	- Network/Net Panel - See if files are loading
+	- If files are loading, use JSHint, which is part of the PHP & Web Toolkit plugin - See if there are any errors
 
-- Mention Chloe Field's [letterpress workshop](http://psu.gd/learn-how-to-letterpress/)
 
-- FINALS TIME: Do you guys think we can finish by the end of Week 10? Are people available for a different time? How does online posting sound?
 
-- Strike
-	- How might this affect class?
-	
 
 
 ### Product Site Reviews
@@ -37,52 +35,9 @@ CLASS
 	- Did it make you more or less interested in the product itself?
 
 
-
-
-### Setting Up Hosting
-
-- Why do you need it?
-	- Portfolio
-	- Product site
-	- blog
-	- combo
-
-- Where to go
-	- CMS
-		- Squarespace
-		- Virb
-		- Cargo
 	
-	- Types of hosting plans
-		- shared
-		- dedicated
-		- cloud
-			- Rackspace
-			- Amazon Web Services
-	- Top hosting plans 
-		- [Lifehackers picks](http://lifehacker.com/5912254/most-popular-web-hosting-company-dreamhost)
-		- [PRChecker](http://www.prchecker.info/top-10-web-hosting.php)
-		
-- What to look for
-	- PHP (preferably support for ver. 5.3 or better)
-	- MySQL
-	- Bandwidth
-	- Space
-	- Domains
-	- Server load
-	- Price
-	- Extras? 1-click installs, python, ruby on rails, SSH
-
-- Signing Up
-
-- [cPanel](http://backstage.site5.com/) (I use [Site5](http://www.site5.com/))
-	- Email Accounts
-	- FTP Accounts
-	- MySQL Databases
-	- Addon Domains
-	- Subdomains
-
-	
+### Group crits while I meet with students one-on-one
+Have students show their annotated comps and discuss their plans for programming. Encourage them to give each other advice on how best to put it together, with a particular focus on what goes inside of divs (what goes with what?)
 
 ### Work Session
 
@@ -90,7 +45,7 @@ CLASS
 HW
 ---------------------------------------
 
-1. **Finish Designs**
+1. **Refine Designs**
 
 	Finish the designs for *all* of your pages. Don't start coding your site until you've collected all of your content and designed every detail. Yes, you may change your mind later in the process, but the more you decide in Photoshop/Illustrator, the easier it will be to make your site work the first time.
 
@@ -107,4 +62,4 @@ HW
 	
 3. **Code**
 
-	This isn't required for next class, but if you have a solid and complete design and a bit of extra time, feel free to start making your HTML/CSS.
+	This isn't required for next class, but if you have a solid and complete design and a bit of extra time, feel free to start making your HTML/CSS. Do NOT start working on javascript stuff until you have your HTML/CSS foundation.

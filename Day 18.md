@@ -13,7 +13,58 @@ PREP
 CLASS
 ---------------------------------------
 
-### WordPress Workshop
+
+
+### Setting Up Hosting
+
+- Why do you need it?
+	- Portfolio
+	- Product site
+	- blog
+	- combo
+
+- Where to go
+	- CMS
+		- Squarespace
+		- Virb
+		- Cargo
+	
+	- Types of hosting plans
+		- shared
+		- dedicated
+		- cloud
+			- Rackspace
+			- Amazon Web Services
+	- Top hosting plans 
+		- [Lifehackers picks](http://lifehacker.com/5911651/five-best-web-hosting-companies)
+		- [NearlyFreeSpeech](https://www.nearlyfreespeech.net/)
+		- [Site5](http://site5.com)
+		
+- What to look for
+	- PHP (preferably support for ver. 5.3 or better)
+	- MySQL
+	- Bandwidth
+	- Space
+	- Domains
+	- Server load
+	- Price
+	- Extras? 1-click installs, python, ruby on rails, SSH
+
+- Signing Up
+
+- [cPanel](http://backstage.site5.com/) (I use [Site5](http://www.site5.com/))
+	- Email Accounts
+	- FTP Accounts
+	- MySQL Databases
+	- Addon Domains
+	- Subdomains
+
+
+
+### SASS/LESS/Cinch
+
+
+### WordPress Workshop NOPE
 
 - Explain WordPress
 	- Templates
@@ -62,13 +113,6 @@ CLASS
 
 
 
-**Extra time?**
-
-- Add sidebar (using [Advanced Custom Fields](http://wordpress.org/plugins/advanced-custom-fields/))
-- Add custom post types (using [Custom Post Types UI](https://wordpress.org/plugins/custom-post-type-ui/screenshots/))
-
-
-
 		
 
 
@@ -98,3 +142,7 @@ HW
 3. **Code**
 
 	This isn't required for next class, but if you have a solid and complete design and a bit of extra time, feel free to start making your HTML/CSS.
+
+4. **Progress Report**
+
+	Write and post 2-3 paragraphs on where you are in the process of making Project 2. Let us hear about what you've been able to accomplish, what you're struggling with, and what you feel good about. You should all have some HTML/CSS finished at this point, so post a link and a screenshot along with your report.

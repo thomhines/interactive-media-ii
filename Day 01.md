@@ -1,4 +1,4 @@
-ART 342 - Day 1
+Day 1
 =======================================
  
 1. Go over syllabus
@@ -29,7 +29,7 @@ Class
 
 
 ### FTP
-- Download Coda (For windows users, Notepad++/NppFTP)
+- Download Coda (For windows users, Brackets/FireFTP)
 
 - Set up Site for pdx.edu
 
@@ -42,6 +42,8 @@ Class
 
 ### Refreshers
 
+Using this [template](http://teaching.thomhines.com/resources/web_review.zip)
+
 #### HTML Refresher
 - What is the head of the document for?
 - How do we set the page title that appears in the browser title area?
@@ -51,9 +53,12 @@ Class
 
 
 #### CSS Refresher
+- How do we apply color?
+- How do we style type?
 - What is an 'id'? How do we indicate them in our CSS?
 - What about classes?
 - How do we style rollovers on links? Paragraphs? Images?
+- How do we make a centered site? Two-column site?
 - How can we achieve a transition in our CSS?
 
 
@@ -87,6 +92,9 @@ If anybody has questions about these things, you can go over them in [CodePen](h
 
 ### Introduce Project 1
 
+[30 Compelling Examples of Visual Storytelling on the Web](http://www.dtelepathy.com/blog/inspiration/30-compelling-examples-of-visual-storytelling-on-the-web)
+
+
 Real World Examples:
 
 - [Aquatalis Expedition](http://aquatilis.tv/)
@@ -103,12 +111,11 @@ Real World Examples:
 Student Examples:
 
 - [The Evolution of Kanye West](http://web.pdx.edu/~phillip2/342/a1revised/)
-- [The Solar System](http://romeosalazar.com/solarsystem/)
 - [Evolution of the Bicycle](http://web.pdx.edu/~lesseg/Project%201/index.html)
 - [Brewtopia](http://web.pdx.edu/~celestia/brewtopia/)
-- [Ice Cube Had a Good Day](http://www.jyundesign.com/project/icecube/index.php)
 - [From Bean to Brew](http://web.pdx.edu/~wnicole/BeanToBrew/index.html)
-
+- [Sigmund's Quest](http://web.pdx.edu/~gholz2/sigmundsquest/)
+- [Lunar Landing](http://web.pdx.edu/~vdespain/lunar/)
 
 ### Discuss possibilities of what we can learn
 - jQuery
@@ -127,58 +134,22 @@ Student Examples:
 HW
 ---------------------------------------
 
-1. **Install Coda**
+And we're off! Heavy-duty review today, but you guys seemed to handle it like champs. Keep it up, yo!
+
+
+1. **Install Text Editor/FTP software**
 
 	If you weren't able to get it done in class, download and install [Coda](http://panic.com/coda/). I will be teaching off of this app for the rest of the term, and it will make much more sense if we are all on the same page. Trust me, it's worth it.
 	
 	To get the discount mentioned in class, fill out this [form](http://art341w14.files.wordpress.com/2014/01/panic-psu-discount-cc-form.pdf) and send it to June <june@panic.com> at Panic. She'll get you squared away. You'll need to use your @pdx.edu email address for this to work. (And make *sure* to give a big 'thank you!')
 
 
-2. **Start on Project 1**
+2. **Make a 1-Page, Multiple-Column Interactive Site**
 
-	Start to think about what you would like to base your Project 1 on. Post at least 3 ideas to the blog. You can always change your mind later, so just pick some stuff.
+	Starting from the [Web Review](http://teaching.thomhines.com/resources/web_review.zip) template, create another site that has multiple columns, styled typography, a clear color scheme, and at least two forms of interaction using jQuery. Post a screenshot and a link of your amazing creation to the blog. 
+
+
+3. **Start on Project 1**
+
+	Start to think about what narratives you would like to build for project one send at least 3 ideas to the Google Group (aka this mailing list). You can always change your mind later, so just pick some stuff. And if you can't come up with something you like, look at what other people are posting and see if that helps you get any ideas.
 	
-
-3. **Make 1-Page, Interactive Site**
-
-	Create a one page site, including CSS and at least one jQuery mouse event (you might consider doing hover or double-click), and upload it to your web server. As much as possible, try to do it without just copying and pasting what we did in class today. Make the site look fun and have the interactions do something cool. And make sure it validates!
-
-	Post the URL, along with a screenshot, of your site to WordPress. 
-
-	The site should have this content:
-	
-		<header>
-			Title
-			Tag Line
-		
-			<main nav>
-				About
-				Resources
-				Contact
-			</main nav>
-				
-		</header>
-		
-		
-		
-		<main content>
-		
-		Article Title
-		
-		Article Subtitle
-		
-		Wayfarers single-origin coffee cred whatever viral, you probably haven't heard of them letterpress brunch mlkshk. Vice dreamcatcher homo sustainable Austin. +1 mustache you probably haven't heard of them synth carles viral yr, helvetica brooklyn keytar. Readymade master cleanse craft beer, tofu carles homo portland leggings you probably haven't heard of them cliche before they sold out organic. Sustainable next level pitchfork, brooklyn scenester art party leggings chambray. Art party jean shorts fap, organic brunch food truck fixie pitchfork viral 8-bit cred four loko artisan. Gluten-free echo park art party farm-to-table sartorial, banh mi 3 wolf moon chambray.
-		
-		Banh mi fanny pack bicycle rights put a bird on it sartorial lo-fi Austin artisan. Quinoa tofu master cleanse vice salvia raw denim. Artisan iphone photo booth, pitchfork bicycle rights vice portland VHS tattooed. Gentrify art party whatever iphone viral banh mi. Vice fanny pack letterpress williamsburg, food truck cardigan Austin etsy. Scenester hoodie wes anderson, williamsburg gentrify mixtape helvetica retro etsy. Farm-to-table tofu messenger bag synth art party, gluten-free craft beer master cleanse.
-		
-		Iphone bicycle rights craft beer mcsweeney's pitchfork vinyl. Beard cred before they sold out food truck dreamcatcher Austin, thundercats lo-fi wayfarers. Beard mustache brooklyn leggings biodiesel. VHS photo booth wes anderson, 8-bit wayfarers irony artisan messenger bag cliche letterpress wolf cred etsy pitchfork. Pitchfork ethical tumblr stumptown food truck tofu. Gluten-free homo shoreditch photo booth. VHS marfa master cleanse, chambray blog mcsweeney's butcher hoodie banh mi mustache american apparel art party.
-		
-		</main content>
-		
-		
-		
-		<footer>
-		
-		copyright 2013 [your name]
-		
-		</footer>

@@ -19,14 +19,7 @@ CLASS
 
 
 ### Quiz
-- Good/Bad Site characteristics?
 
-[CSS Selectors Quiz](http://codepen.io/thomhines/pen/BzntC) based on [CSS Diner](http://flukeout.github.io/)
-- How do I select all of the list items?
-- How do I select the ".important" items?
-- How can I select those that are both ".important and .irrelevant?
-- How can I select just the first item? The last? The fourth?
-- Every other item? Only even ones? Only odd ones?
 
 
 ### JS Demo
@@ -40,10 +33,12 @@ CLASS
 
 ### Group Discussions (while I meet 1-on-1)
 
+Have students talk about how they plan to structure their HTML and build their sites. Groups should give feedback and suggestions.
+
 
 HW
 ---------------------------------------
-Good thing we're done with these candidate lectures just as we're starting to code! We'll be doing one more demo this week, but for the rest of the project we'll be focusing on developing the sites you've been designing. We still have a while before this project is due, but don't slow down now! The hardest and most time consuming parts almost always come at the end.
+We'll be doing one more demo this week, but for the rest of the project we'll be focusing on developing the sites you've been designing. We still have a while before this project is due, but don't slow down now! The hardest and most time consuming parts almost always come at the end.
 
 
 1. **Annotated Comps**
@@ -56,9 +51,11 @@ Good thing we're done with these candidate lectures just as we're starting to co
 
 2. **HTML/CSS**
 
-	If you haven't already started on it, now is the time to start coding this thing. You should have your HTML done for all of your pages by next class (don't worry! Like always, you can change it later), and if you have time, start working on your CSS.
+	If you haven't already started on it, now is the time to start coding this thing. You should have your HTML done for all of your pages by next class (don't worry! Like always, you can change it later), and if you have time, start working on your CSS. **DO NOT** start working on your javascript until you're done with your HTML and CSS, unless you have a really good reason.
 
 
 3. **Codecademy Javascript Lessons**
 
 	Go through the first two series of exercises (under the '[Introduction to Javascript](http://www.codecademy.com/tracks/javascript)' section) on Codecademy. The exercises will guide you through if statements, variables, and so on, as well as a few fun new tools like console.log. Once you're done with these, post a screen shot of the Javascript page with the completed tracks checked off to the blog.
+
+	For those of you who were in class, this is extra credit. For those of you who weren't, this is *required* so we can talk about this stuff during next class' demo.

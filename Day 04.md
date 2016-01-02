@@ -1,4 +1,4 @@
-ART 342 - Day 4
+Day 4
 =======================================
 
 1. Discuss good/bad sites from HW
@@ -29,6 +29,9 @@ CLASS
 
 ### Housecleaning
 - Any Questions from last time?
+- Update your WP names so that I know who you are
+- Even if you didn't get a working practice site, at least post your homework for credit and write about what went wrong!
+- Clearfix
 - Go over homework
 
 ### Discuss good and bad sites
@@ -78,13 +81,6 @@ Make a list of common things that are good and bad on the board
 
 
 
-### Break
-
-
-### Responsive Design (because we didn't cover this last time)
-
-- Download completed layout demo
-- Add media queries
 
 
 ### SVG Images
@@ -138,9 +134,10 @@ We can use SVG files in a few different ways:
 - Inline
 	- Just copy and paste SVG code into HTML
 	- PHP includes `<?php include("kiwi.svg"); ?>`
-	- NOTE: In order for this to work, you may have to edit your .svg file and remove the first few lines of code (everything before the `<svg>` tag)
+	
+		- NOTE: In order for this to work, you have to change your file to .php and you may have to edit your .svg file and remove the first few lines of code (everything before the `<svg>` tag)
 
-- Advanced: Modifying SVG w/ CSS
+- Advanced: Modifying SVG w/ CSS. NOTE: This only works with inline and object-based SVG files
 	- By using class names, you can style individual elements within an SVG
 	- [Chris Coyier's Kiwi Codepen](http://codepen.io/chriscoyier/pen/evcBu)
 	- [SVG Attribute Reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute)
@@ -150,6 +147,8 @@ We can use SVG files in a few different ways:
 
 
 
+
+###### Break
 
 
 ### Split into groups and go over wireframes. 
@@ -178,11 +177,11 @@ We can use SVG files in a few different ways:
 HW
 ---------------------------------------
 
-1. **Mood Boards**
-	
-	I want to see at least 20 pieces of inspiration that you want to use as a jumping off point for your narrative site. These can be typography, color palettes, other sites, nice interactions, styles, images, text, whatever. Of course, post these to the blog.
+1. **Design Comps**
+
+	Design and bring in **three (3)** solid directions on the most complex or central page of your site. Stay true to the work you had done with your wireframes, but experiment with color, type, texture, etc. Each direction should feel unique and address the goals you had set for your site stylistically, and each direction should include at least two "frames" or pages. Post them to the blog.
 
 
-2. **Comps**
-
-	Design and bring in **three (3)** solid directions on any given page or section of your site. Stay true to the work you had done with your wireframes, but experiment with color, type, texture, etc. Each direction should feel unique and address the goals you had set for your site stylistically. Post them to the blog.
+### Useful Links
+- [Using SVG on CSS-Tricks](http://css-tricks.com/using-svg/)
+- [Building Better Interfaces with SVG](http://slides.com/sarasoueidan/building-better-interfaces-with-svg#/)

@@ -1,4 +1,4 @@
-ART 342 - Day 2
+Day 2
 =======================================
 
 1. Coda Tutorial
@@ -35,6 +35,8 @@ Example:
 	$(p).click(
 		$(p).fadein;
 	);
+
+	Mention JS :( page on the blog.
 
 - Go over homework
 
@@ -78,11 +80,21 @@ Example:
 
 - Books
 
+- Publishing (try it on today's demo!)
 
-### Break
 
-### Start to talk about frameworks (W14:1.5hr)
-[Working files](http://teaching.thomhines.com/resources/bootstrap_empty.zip) ([Complete version](http://teaching.thomhines.com/resources/bootstrap_complete.zip)). Have students create new Coda bookmark and upload that file to the server.
+###### Break
+
+### Frameworks (W14:1.5hr)
+
+Benefits:
+- Takes away much of the work of coding by hand
+- Tons of useful tweaks and features like clearfix, text handling, alignment, etc.
+- Grid systems
+- Responsive
+- Form fields and the like
+
+
 
 
 - [960.gs](http://960.gs/)
@@ -105,18 +117,11 @@ Example:
 
 - [Fluid 960](http://www.designinfluences.com/fluid960gs/) 
 	- Requires changes to class names
+
 - [Responsive 960](https://github.com/tylerwolff/960-Responsive-Grid)
 	- add 960-responsive.css after 960.css. You're done!
 
-
-- [960 Grid Bookmarklet](http://www.badlydrawntoy.com/2009/04/23/grid960-a-grid-overlay-bookmarklet-for-960gs/)
-	
-	Test it on :
-	- [960](http://960.gs)
-	- [Drupal](https://drupal.org/)
-	- [Brand Rich Media](http://www.brandrichmedia.com/)
-
-
+- [Foundation](http://foundation.zurb.com/)
 
 - [Bootstrap](http://getbootstrap.com/)
 	- Many more features, including styles for common elements and some basic jQuery plugins for creating carousels, modal dialogs, tooltips, etc.
@@ -132,8 +137,9 @@ Example:
 	- Grid system uses fractions instead of sub-columns (pure-u-1-3 for 1/3 width)
 
 
+LET'S TRY IT!
 
-
+[Bootstrap Example](http://teaching.thomhines.com/resources/bootstrap_example.zip) ([Complete version](http://teaching.thomhines.com/resources/bootstrap_example_complete.zip)). Have students create new Coda bookmark and upload that file to the server.
 
 
 
@@ -141,29 +147,26 @@ HW
 ---------------------------------------
 Whew, what a day! Somehow, we made it through. Have a great weekend, everyone!
 
-1. **Super Nice Last Chance to do HW 1**
+1. **Create a 1-page site using a CSS frameworks**
 
-	A few people still haven't posted their homework to the blog. If you haven't, please do so. As a one-time, nice-guy act of charity, people have until Friday at midnight to get these up.
-	
-	
-2. **Create a 1-page site using a CSS frameworks**
-
-	Using one of the frameworks we talked about in class today ([Bootstrap](http://getbootstrap.com/), [Foundation](http://foundation.zurb.com/), [Pure](http://purecss.io/), or any other comparable framework you find online, create a web page that has at least 2 columns (preferably 3 or 4, or differing amounts throughout the page), and enough filler content to make it feel kind of like a real web page. Try playing around with adding classes to buttons or form elements. If it helps, you can use one of your projects from 341 to get content.
+	Using one of the frameworks we talked about in class today ([Bootstrap](http://getbootstrap.com/), [Foundation](http://foundation.zurb.com/), [Pure](http://purecss.io/), or any other comparable framework you find online, create a web page that has at least 2 columns (preferably 3 or 4, or differing amounts throughout the page), and enough filler content to make it feel kind of like a real web page. Try playing around with adding classes to buttons or form elements. If it helps, you can use the demo file from today or one of your projects from 341 to get content.
 	
 
+2. **Collect content for Project 1**
 
-3. **Collect content for Project 1**
-
-	Using this [questionnaire](http://art342s14.wordpress.com/2014/04/02/project-1-objectives-questionnaire/) and the discussions we had in class, start to narrow your ideas down to exactly what you are going to be making your site about. Think about how your site can tell a story, what the major "plot points" will be, and how you can engage users through interaction to make the narrative more immersive and inclusive. Copy and paste the questionnaire into a new WordPress post, answer the questions, and write up any other thoughts and findings you have.
+	Start to narrow your ideas down to exactly what you are going to be making your site about. Think about how your site can tell a story, what the major "plot points" will be, and how you can engage users through interaction to make the narrative more immersive and inclusive. Write a synopsis, collect some initial content/sketches/images, and describe at least a few forms of interaction that would make sense in the telling of your narrative.
 
 		
-4. **Post the your homework to WordPress**
+3. **Post the your homework to WordPress**
 	
 	Just one last reminder that you should always post your HW to WordPress. If you want credit for your work, take the extra 30 seconds.
 
 
-5. **jQuery ExTrA CrEdiT!!!!**
+4. **jQuery ExTrA CrEdiT!!!!**
 
-	For any of you who are interested in learning more about jQuery or want to get a small bump in their grade, finish the first two [jQuery lessons](http://www.codecademy.com/tracks/jquery) (Introducing jQuery and jQuery Functions), and post a screen shot of your completed lessons to the blog. Like so:
-	
-	<img src="http://teaching.thomhines.com/resources/Codecademy%20Example.png">
+	For any of you who are interested in learning more about jQuery or want to get a small bump in their grade, finish the [jQuery Track](http://www.codecademy.com/tracks/jquery) on codecademy, and post a screen shot of your completed lessons to the blog.
+
+
+### Useful Links
+- [Coda Plugins](https://panic.com/coda/plugins.php#Plugins)
+- [Thom's Coda clips](http://teaching.thomhines.com/342/Thom's%20Clips.clips)
