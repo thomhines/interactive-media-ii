@@ -1,4 +1,4 @@
-ART 342 - Day 8
+Day 8
 =======================================
 
 1. Parallax Demo
@@ -32,6 +32,17 @@ CLASS
 - Every other item? Only even ones? Only odd ones?
 
 
+### Animations  ([codepen](http://codepen.io/thomhines/pen/WrzYEV))
+
+
+
+### Horizontally Scrolling Site ([codepen](http://codepen.io/thomhines/pen/mVxQMG))
+
+
+### JS/Programming Demo
+[CodePen](http://codepen.io/thomhines/pen/mcKzt/) ([Completed CodePen](http://codepen.io/thomhines/pen/JqbLo/))
+
+
 Javascript basics:
 - What do we call the thing that lets us store a value in code (eg. "username" from last class)? (variable)
 - How do we ask for user input when we need them to give a yes/no answer? (the confirm() function)
@@ -39,89 +50,6 @@ Javascript basics:
 	- How can we run one set of code only when certain conditions are met in our code? (the if() statement)
 	- And how can we run other code when that statement is false?
 	- What if we need to check for multiple conditions? (else if, &&, and ||)
-
-
-### Paralax Workshop
-based on [tutsplus article](http://webdesign.tutsplus.com/tutorials/complete-websites/create-a-parallax-scrolling-website-using-stellar-js/)
-
-
-- Show off [completed Parallax demo site](http://web.pdx.edu/~thines/342/parallax_complete)
-- Download [non-completed Parallax demo site](http://teaching.thomhines.com/resources/parallax_empty.zip)
-
-- Describe jQuery plugins
-	- Stellar
-	- scrollTo
-	- waypoint
-	- jQuery UI
-
-#### Parallax 
-
-- $(window).stellar();
-	- Link to JS
-	- Add `$(window).stellar()` to scripts.js
-- HTML
-		
-		<div class="item item1" data-stellar-ratio=".6">ITEM</div>
-		<div class="item item2" data-stellar-ratio=".8">ITEM</div>
-		<div class="item item3" data-stellar-ratio="1.2">ITEM</div>
-		<div class="item item4" data-stellar-ratio="1.4">ITEM</div>
-		<div class="item item5" data-stellar-ratio="1.6">ITEM</div>	
-	
-#### ScrollTo
-- $(window).scrollTo();
-	- Link to JS
-	- Add:
-
-			$('.page2_link').click(function() {
-				$(window).scrollTo('#page2', 800);
-			});
-
-#### Waypoint
-- $('#page2').waypoint
-	- Link to JS
-	- Add: 
-	
-			$('#page2').waypoint(function (direction) {
-				$('nav a').removeClass('selected');
-				$('.page2_link').addClass('selected');
-			});
-
-	- Hide box on page2 and show it via waypoint:
-
-			$('.fadeIn').hide();
-			
-			waypoint(function() {
-				$('.fadeIn').fadeIn();
-			}
-
-	- Add `direction == 'down'` and `else`, so that code looks like this
-
-			
-			$('#page2').waypoint(function (direction) {
-				$('nav a').removeClass('selected');
-				if (direction === 'down') {
-					$('.page2_link').addClass('selected');
-					$('.fadeIn').fadeIn();
-				} else {
-					$('.page1_link').addClass('selected');
-				}
-			});
-		
-	- If scrollto isn't lining up, add offset:
-	
-			$(window).scrollTo('#page2', 800, {offset: 3});
-			
-			
-			
-
-<!--
-#### jQuery UI for nav animations (optional) 
-- Add jQuery UI
-- update addClass, removeClass
-	$('nav a').removeClass('selected', 200);
-
-
--->
 
 
 ### Work Session

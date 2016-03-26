@@ -37,6 +37,68 @@ CLASS
 
 
 
+
+#### Frameworks (W14:1.5hr)
+
+Benefits:
+- Takes away much of the work of coding by hand
+- Tons of useful tweaks and features like clearfix, text handling, alignment, etc.
+- Grid systems
+- Responsive
+- Form fields and the like
+
+
+
+
+- [960.gs](http://960.gs/)
+	- zip includes templates for sketching UI, and template files for most major image programs including Illustrator and Photoshop
+	- Need to wrap 960 grid in a container:
+	
+		`<div class="container_12">`
+	
+	- This will create a box 4 columns wide in our grid:
+	
+		`<div class="grid_4">`
+
+	- This will add 3 columns of space before that same box
+	
+		`<div class="prefix_3 grid_4">`
+		
+	- This will add 3 columns of space *after* that same box
+	
+		`<div class="suffix_3 grid_4">`
+
+- [Fluid 960](http://www.designinfluences.com/fluid960gs/) 
+	- Requires changes to class names
+
+- [Responsive 960](https://github.com/tylerwolff/960-Responsive-Grid)
+	- add 960-responsive.css after 960.css. You're done!
+
+- [Foundation](http://foundation.zurb.com/)
+
+- [Bootstrap](http://getbootstrap.com/)
+	- Many more features, including styles for common elements and some basic jQuery plugins for creating carousels, modal dialogs, tooltips, etc.
+	- RESPONSIVE!
+	
+	- Demo: Download bootstrap, and get one of their example templates
+
+
+
+- [Pure](http://purecss.io/)
+	- Similar to Bootstrap, but lighter.
+	- Breaks several components into parts (grids, forms, menus, buttons, tables)
+	- Grid system uses fractions instead of sub-columns (pure-u-1-3 for 1/3 width)
+
+
+LET'S TRY IT!
+
+[Bootstrap Example](http://teaching.thomhines.com/resources/bootstrap_example.zip) ([Complete version](http://teaching.thomhines.com/resources/bootstrap_example_complete.zip)). Have students create new Coda bookmark and upload that file to the server.
+
+### Flexbox
+
+[gridly](https://github.com/IonicaBizau/gridly/) - SUPER simple flexbox based CSS framework
+[gridlex](http://gridlex.devlint.fr/) - More complex, basically has class names for every flexbox feature
+
 ### CSS Pre-Processors
 
 #### [SASS](http://sass-lang.com/guide)

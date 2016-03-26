@@ -17,7 +17,6 @@ CLASS
 - Discuss Project 2
 - Show examples
 	- [coin](https://onlycoin.com/)
-	- [Goldee](http://web.archive.org/web/20140701032202/http://getgoldee.com/)
 	- [Andy's Moog site](http://andobe.com/moog/)
 	- [Savannah's Lanikai site](http://web.pdx.edu/~savj/lanikaiSite/)
 	- [Michelle's Swiss Army Knife site](http://web.pdx.edu/~mml2/swiss1/index.html)
@@ -49,12 +48,12 @@ Have a great evening, everyone.
 
 2. **Pick a Product for Project 2**
 	
-	I've posted the [Project 2 brief](http://art342w14.files.wordpress.com/2014/01/art-342-project-2-product-placement.pdf) to the resources page, so hopefully anybody confused about my description of project 2 can get a better sense of what we're looking for. By next class, I want you to pick out the product that you will be basing your Project 2 site on. When picking a product, think about what kinds of interactions you have with it as you use it. Ideally, the product you pick will have a deep, rich, and hopefully fun interaction. And just in case your top idea doesn't work out, I would like for you post two back-up ideas (three product ideas total) to the blog. 
+	I've posted the Project 2 brief to the resources page, so hopefully anybody confused about my description of project 2 can get a better sense of what we're looking for. By next class, I want you to pick out the product that you will be basing your Project 2 site on. When picking a product, think about what kinds of interactions you have with it as you use it. Ideally, the product you pick will have a deep, rich, and hopefully fun interaction. And just in case your top idea doesn't work out, I would like for you post two back-up ideas (three product ideas total) to the blog. For each product idea, come up with three significant interactions that are essential to the use of your product and how you might translate those to the web. Feel free to check [unheap](http://www.unheap.com/) to find ideas.
+
 	
-	Here are some examples of sites: 
+	Here are some examples of Project 2 sites: 
 	
-	- [coin](https://onlycoin.com/)
-	- [Goldee](http://getgoldee.com/)
+	- [coin](https://onlycoin.com/) (not a student site)
 	- [Andy's Moog site](http://andobe.com/moog/)
 	- [Savannah's Lanikai site](http://web.pdx.edu/~savj/lanikaiSite/)
 	- [Michelle's Swiss Army Knife site](http://web.pdx.edu/~mml2/swiss1/index.html)

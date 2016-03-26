@@ -15,6 +15,9 @@ CLASS
 
 
 
+### JS Demo (if we hadn't already done it earlier in the term)
+
+
 ### Setting Up Hosting
 
 - Why do you need it?
@@ -61,55 +64,7 @@ CLASS
 
 
 
-### SASS/LESS/Cinch
-
-
-### WordPress Workshop NOPE
-
-- Explain WordPress
-	- Templates
-	- PHP
-	- Database
-	
-- Setup
-	- Create Database
-	- [Download](http://wordpress.org/)/Upload WordPress
-	- Install
-		- Don't use default table prefix or admin username
-		- Most of the time the server is 'localhost'
-
-- Interface
-	- Create page from HTML content
-	
-	- Settings
-		- Homepage
-		- Tagline
-		- Permalinks
-		- Media (thumbnails) 
-	- Plugins
-		- Login Lockdown
-		- SEO
-		- DB Backup?
-		- Cacheing?
-
-- Templates
-	- Go through WordPress' [theme stuff](http://codex.wordpress.org/Theme_Development)
-		- Template Stylesheet
-		- Template Files
-	- Upload template files (based on responsive demo)
-	- Update style.css
-		- Move out of CSS folder
-		- Add template info
-
-	- Create page.php
-		- Create header.php/footer.php
-		- Move header info to those files
-		- Add links to stylesheet
-		- Update image links
-		- add wp_head()/wp_footer
-		
-
-- Load up page
+### SASS/LESS/Cinch?
 
 
 

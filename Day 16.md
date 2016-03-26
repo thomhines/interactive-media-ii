@@ -125,7 +125,7 @@ HW
 
 1. **Finish Designs**
 
-	Finish the designs for *all* of your pages. Don't start coding your site until you've collected all of your content and designed every detail. Yes, you may change your mind later in the process, but the more you decide in Photoshop/Illustrator, the easier it will be to make your site work the first time.
+	Finish the designs for *all* of your pages. Don't start coding your site until you've collected all of your content and designed every detail. Yes, you may change your mind later in the process, but the more you decide in Photoshop/Illustrator, the easier it will be to make your site work the first time. Similarly, if you don't have your layout or interactions nailed down yet, you might consider doing another round of wireframes, too! Whatever you do, post it to the blog and beef up your process grade.
 
 	
 2. **Annotated Comps**
@@ -137,10 +137,11 @@ HW
 	- Define related sections of your site. For instance, group your header info together, and if your main content area has a box inside of it with three text elements and two images, put a div around it to keep them all together.
 	
 	- Start to label what elements/classes you will use for each section and element (eg. "h1", "header", ".sidebar"). The more you do now, the easier it will be to start coding.
+
 	
 3. **Code**
 
-	This isn't required for next class, but if you have a solid and complete design and a bit of extra time, feel free to start making your HTML/CSS.
+	This isn't required for next class, but if you have a solid and complete design and a bit of extra time, feel free to start making your HTML/CSS. If you want, you can use the HTML template I posted to the Resources page on the blog to get you started.
 
 
 

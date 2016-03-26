@@ -42,7 +42,7 @@ Class
 
 ### Refreshers
 
-Using this [template](http://teaching.thomhines.com/resources/web_review.zip)
+Using this [template](http://teaching.thomhines.com/resources/web_review.zip) or, better yet, this [pen](http://codepen.io/thomhines/pen/gPmmGY).
 
 #### HTML Refresher
 - What is the head of the document for?
@@ -97,16 +97,14 @@ If anybody has questions about these things, you can go over them in [CodePen](h
 
 Real World Examples:
 
-- [Aquatalis Expedition](http://aquatilis.tv/)
-- [Head2Heart](http://www.head2heart.us/)
-- [Energy Trust of Oregon](http://energytrust.org/timeline/)
-- [xkcd](http://xkcd-map.rent-a-geek.de/#10/1.0999/0.2005)
 - [Eephus League](http://eephusleague.com/magazine/)
 - [The Distance to Mars](http://www.distancetomars.com/)
-- [Dangers of Fracking](http://www.dangersoffracking.com/)
-- [These Are Things](http://thesearethings.com/)
 - [Atlantis World Fair](http://lostworldsfairs.com/atlantis/)
-- [The Lifecycle Adventure](http://thelifecycle.roblutter.com/creations/)
+- [Dangers of Fracking](http://www.dangersoffracking.com/)
+- [Aquatalis Expedition](http://aquatilis.tv/)
+- [Energy Trust of Oregon](http://energytrust.org/timeline/)
+- [xkcd](http://xkcd-map.rent-a-geek.de/#10/1.0999/0.2005)
+
 
 Student Examples:
 

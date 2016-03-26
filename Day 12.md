@@ -92,18 +92,20 @@ What you now have in place is like a skeleton. Next step would be to start writi
 HW
 ---------------------------------------
 
-1. **Post Wireframes**
+Hey all,
 
-	First, if you didn't finish your 6 wireframes today in class, finish them. Then post them to the blog. Remember to add any notes or sketches that will help you remember your ideas for the design stage!	
+Before we head into the weekend, I just wanted to make sure that I gave you guys the homework in email form. It's the exact same thing I mentioned in class, but not everybody was there.
 
+1. **Wireframes**
 
-2. **Research/Mood Boards**
+	Three sets of wireframes, and each of these should be much more comprehensive and detailed than the ones you did for project 1. (I don't mean detailed as in adding shading or little pictures to the wireframes. I mean that you should be thorough in what content you're using, where it goes, how much space it will take up, what kinds of animations and interactions you expect to use, etc.). Then do it two more times with different layouts and interaction ideas. Post these to the blog.
+
+2. **Moodboards**
 	
-	It doesn't have to be a 'board', but I want to see at least 20 pieces of aesthetic inspiration. This could include imagery, texture, type, color, etc. At least three of your directions should be other sites that feature something you would like to emulate in your product site. For these three sites, write a brief description about why you like it in the context of this project. Bonus points if anybody shares good resources or sites for finding well designed product sites with the email list.
+	Find at least 20 pieces of inspiration for your project 2 product site. I would recommend finding several sites that do things you'd like to emulate, and one or more of these has to be a product site that showcases and sells a product in a compelling way. Print these out in addition to posting them to the blog.
 
+3. **Rough Comps**
 
-3. **Design Comps**
-	
-	Create three distinct directions of how you might want your site to work. They don't have to be finalized, but as always, the more you do now, the less you'll have to work or stress later. You can do just one page for each direction, but be sure to show enough that you can capture the feel of your design and the page structure from your wireframes in that one page. 
+	Using your wireframes and moodboards, start to play around with the look and feel of your sites. Don't worry about fine tuning at this point, I want you to explore a breadth of design options in low fidelity. Create at least three distinct, rough design directions (one page each) by next class.
 
 

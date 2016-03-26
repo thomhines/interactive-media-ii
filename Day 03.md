@@ -21,13 +21,21 @@ CLASS
 
 
 ### QUIZ
-- What is a 'clip' in Coda?
-- What are the steps necessary to make a CSS framework like 960.gs or bootstrap work?
-- What is the difference between a fluid grid and a responsive grid?
-- Pick 2 more students to show off their sites
+- What is the tool we use in order to make a web page's style respond to different size screens?
+	- Look at Farrah's site to show how you can change the background to mark different breakpoints
+- How do we absolutely position one element inside of another?
+- What CSS properties do we adjust the position of an absolutely positioned element in our CSS? 
+	- Relatively positioned?
+- How does every jQuery statement start?
+- What goes in the parentheses after the '$'?
+- What function do we use to hide an element on the page? (hide, fadeout, slideup)
+- How can we move it to another spot in the page? (append, prepend, after, before)
+- How can we affect the content of an element? (.html())
+- How can we affect the styles? (.css, .height, .width)
+- How can we read the value of an input?
+- And lastly, how can we make it so that every time we click on an element, the last element we clicked on disappears?
 
 
-- Who used something other than bootstrap/960/pure?
 
 **MAKE SURE TO POST THUMBNAILS WITH EACH POST!**
 
@@ -45,108 +53,88 @@ CLASS
 
 
 
-### Positioning Presentation
 
-Great place to look at layout info: [learnlayout.com](http://learnlayout.com/)
-
-
-Load Layout Demo Files [(Empty)](http://teaching.thomhines.com/resources/positioning_template_empty.zip) [(Complete)](http://teaching.thomhines.com/resources/positioning_template_complete.zip)
+### Paralax Workshop
+based on [tutsplus article](http://webdesign.tutsplus.com/tutorials/complete-websites/create-a-parallax-scrolling-website-using-stellar-js/)
 
 
-- Make columns border-box so you can adjust paddings on each column without breaking layout
+- Show off [completed Parallax demo site](http://web.pdx.edu/~thines/342/parallax_complete)
+- Download [non-completed Parallax demo site](http://teaching.thomhines.com/resources/parallax_empty.zip)
 
-- Add <span class="dropcap"> to first letter in .main paragraph to demo spans
+- Describe jQuery plugins
+	- Stellar
+	- scrollTo
+	- waypoint
+	- jQuery UI
 
-- Clearfix to make floats work out properly
+#### Parallax 
 
-- Make top-right badge appear in main column, not top right of page
-
-
-
-
-
-### Media Queries Presentation
-
-Show them:
-
-- [mediaqueri.es](http://mediaqueri.es/)
-- [Responsive Doge](http://responsivememe.webflow.com/)
-
-
-
-Add the following code to the responsive_template_empty CSS file:
+- $(window).stellar();
+	- Link to JS
+	- Add `$(window).stellar()` to scripts.js
+- HTML
+		
+		<div class="item item1" data-stellar-ratio=".6">ITEM</div>
+		<div class="item item2" data-stellar-ratio=".8">ITEM</div>
+		<div class="item item3" data-stellar-ratio="1.2">ITEM</div>
+		<div class="item item4" data-stellar-ratio="1.4">ITEM</div>
+		<div class="item item5" data-stellar-ratio="1.6">ITEM</div>	
 	
-	/* Responsive Styles */
+#### ScrollTo
+- $(window).scrollTo();
+	- Link to JS
+	- Add:
+
+			$('.page2_link').click(function() {
+				$(window).scrollTo('#page2', 800);
+			});
+
+#### Waypoint
+- $('#page2').waypoint
+	- Link to JS
+	- Add: 
 	
-	@media screen and (max-width: 800px) {
+			$('#page2').waypoint(function (direction) {
+				$('nav a').removeClass('selected');
+				$('.page2_link').addClass('selected');
+			});
+
+	- Hide box on page2 and show it via waypoint:
+
+			$('.fadeIn').hide();
+			
+			waypoint(function() {
+				$('.fadeIn').fadeIn();
+			}
+
+	- Add `direction == 'down'` and `else`, so that code looks like this
+
+			
+			$('#page2').waypoint(function (direction) {
+				$('nav a').removeClass('selected');
+				if (direction === 'down') {
+					$('.page2_link').addClass('selected');
+					$('.fadeIn').fadeIn();
+				} else {
+					$('.page1_link').addClass('selected');
+				}
+			});
+		
+	- If scrollto isn't lining up, add offset:
 	
-		body {
-			background: #513737;
-		}
-		
-		.container {
-			width: 100%;
-			margin: 10px 0;
-		}
-		
-		header, nav, .main, .sidebar {
-			width: 95%;
-			margin: 10px auto;
-		}
-	
-		.sidebar {
-			float: none;
-		}
-	
-	
-	}
-	
-	@media screen and (max-width: 400px) {
-		
-		body {
-			background: #3a553d;
-			margin: 0;
-		}	
-		
-		.container {
-			width: 100%;
-			margin: 0;
-		}
-		
-		header, nav, .main, .sidebar {
-			width: 100%;
-			margin: 0;
-			-webkit-border-radius: 0;
-			-moz-border-radius: 0;
-			border-radius: 0;
-			padding: 10px;
-		}
-		
-		nav {
-			padding: 10px;
-		}
-		
-		
-		header h1 {
-			font-size: 16px;
-		}
-		
-	}
+			$(window).scrollTo('#page2', 800, {offset: 3});
+			
+			
+			
+
+<!--
+#### jQuery UI for nav animations (optional) 
+- Add jQuery UI
+- update addClass, removeClass
+	$('nav a').removeClass('selected', 200);
 
 
-
-Other Options: 
-
-- @media screen and (min-width: 900px)
-
-- @media screen and (-webkit-min-device-pixel-ratio: 2) // RETINA DISPLAYS
-
-- @media screen and (orientation: portrait)
-
-- @media screen and (orientation: landscape)
-
-
-
+-->
 
 
 ### Break
@@ -204,29 +192,29 @@ HW
 Nice work today, everyone! You guys seem to be getting this stuff pretty easily. If you didn't get the demo fully working, or if you just want to be able to look at the completed version for reference, I've included that version as well on the Resources page. Have a great evening and I'll see you Wednesday!
 
 
-1. **Website Research and Analysis**
+1. **Add one more plugin**
+
+	Take the site we made today in class and add one more plugin to enhance/alter the interaction of the page. It doesn't have to make sense, but at least try to get it to work.
+
+
+2. **Website Research and Analysis**
 
 	Find one website whose ***interactions*** you like and one you don't, and write five reasons for each site on why you think they are either good or bad. Try to find a site with non-standard inputs that go beyond just pointing and clicking or scrolling in a conventional way. Post these writings—along with screenshots illustrating your points and links to the sites—to the blog.
 
 
-2. **Wireframes**
+3. **Wireframes**
 	
-	I would like to see at least three distinct directions of wireframes, with at least three types of interactions per direction. How can you express your narrative's subject/tone through click-and-drag? scrolling? click-and-hold? hovering? hiding/revealing? typing? Post them to the blog. 
+	I would like to see at least three distinct directions of wireframes, with at least five types of interactions per direction. How can you express your narrative's subject/tone through click-and-drag? scrolling? click-and-hold? hovering? hiding/revealing? typing? You don't have to use them all, but brainstorm as many *relevant* ideas as you can. Post them to the blog. 
 
 
-3. **Mood Boards**
+4. **Mood Boards**
 	
 	I want to see at least 20 pieces of inspiration that you want to use as a jumping off point for your narrative site. These can be typography, color palettes, other sites, nice interactions, styles, images, text, whatever. Of course, post these to the blog.
 
 
-4. **Do CSS Diner**
-
-	Do all the exercises at [CSS Diner](http://flukeout.github.io/) and post a screenshot of the final page to the blog. Don't worry; it's fun!
-
-
 
 ### Useful Links
+- [Unheap](http://www.unheap.com/) - Super great jQuery plugins repository
 - [A Beginner’s Guide to Wireframing](http://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399)
 - [Wireframe Examples on Pinterest](https://www.pinterest.com/wireframes/great-wireframe-examples/)
-- [UI Tiles](http://pixelbuddha.net/freebie/ui-tiles-website-flowcharts)
 	

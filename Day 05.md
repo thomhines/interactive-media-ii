@@ -23,6 +23,9 @@ CLASS
 ### Quiz
 
 - Good/Bad Site characteristics?
+- What does SVG stand for?
+- How do we include it in a page? (<img>, CSS background, inline)
+- How do we style individual elements in SVG? (make inline then use SVG CSS properties, such as fill, stroke, etc...)
 
 
 ### jQuery plugin round-up

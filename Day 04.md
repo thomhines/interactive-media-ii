@@ -15,16 +15,15 @@ CLASS
 ---------------------------------------
 
 ### Quiz
-- What is the name of the "tool" we use in CSS to make sites responsive?
-	- How do we use it?
-- How big is a box set with width at 300px, padding at 20px, and border at 5px?
-	- How can we get our box to *actually* be 300px wide?
-- How do we make a two column layout?
-- How do we stack two items on top of each other?
-- How do we absolutely position one element inside of another?
-- What CSS properties do we adjust the position of an absolutely positioned element in our CSS? 
-	- Relatively positioned?
-- What is clearfix?
+
+- What are the three plugins we used on Monday? (Stellar, waypoints, scrollto)
+	- What do each of them do?
+- What are the general steps necessary for adding a jQuery plugin to a site? (link to jquery, link to plugin JS file, add necessary code from plugin's docs)
+- What is a waypoint?
+- How to we make it work?
+- How do we check the direction of a waypoint event?
+
+
 
 
 ### Housecleaning
@@ -34,7 +33,7 @@ CLASS
 - Clearfix
 - Go over homework
 
-### Discuss good and bad sites
+### Discuss good and bad interactivity in web sites
 Make a list of common things that are good and bad on the board
 
 #### GOOD:
@@ -79,7 +78,7 @@ Make a list of common things that are good and bad on the board
 
 
 
-
+### Annotated comps
 
 
 
@@ -179,9 +178,11 @@ HW
 
 1. **Design Comps**
 
-	Design and bring in **three (3)** solid directions on the most complex or central page of your site. Stay true to the work you had done with your wireframes, but experiment with color, type, texture, etc. Each direction should feel unique and address the goals you had set for your site stylistically, and each direction should include at least two "frames" or pages. Post them to the blog.
+	Design and bring in **three (3)** solid directions on the most complex or central page of your site. Stay true to the work you had done with your wireframes, but experiment with color, type, texture, etc. Each direction should feel unique and address the goals you had set for your site stylistically, and each direction should include at least two "states" or moments of interaction/animation. Post them to the blog.
+
 
 
 ### Useful Links
 - [Using SVG on CSS-Tricks](http://css-tricks.com/using-svg/)
 - [Building Better Interfaces with SVG](http://slides.com/sarasoueidan/building-better-interfaces-with-svg#/)
+- [How to Go Beyond the Basic With SVG Filters](http://www.creativebloq.com/netmag/how-go-beyond-basics-svg-filters-71412280)

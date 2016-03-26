@@ -25,6 +25,9 @@ CLASS
 
 
 ### Quiz
+- How many classes can you miss without it affecting your grade?
+- Where does EVERY ASSIGNMENT need to be posted in order to get credit?
+- How can you tell if I've given you credit for an assignment?
 - What version of HTML are we using?
 - What folder on the web server do we put our files?
 - What do we name our homepage HTML file?
@@ -42,104 +45,139 @@ Example:
 
 
 
-### Coda Tutorial (W14:1hr)
+### Web Review
 
-- Setting up sites
-	- Groups
-- Colors
-	- Color picker
-	- RGBA
-	- Gradients
 
-- List of sidebar items
 
-- Split screen
 
-- Code shortcuts
-	- indenting
-	- commenting
-	
 
-- Clips
-	html5
-	css
-	jquery stuff
-	
-- Plugins
-	- CSS Comb
-	- PHP Tools
-	- Hipster ipsum
-	- EMCODA (encrypt email addresses)
-		- select this, then hit **EMCODA**: asfasdf@asdfasd.com, Email me, Sucka!
-	- Emmet 
-		- div
-		- div.container
-		- div>ul>li
-		- div>ul>li*5
-		- div>ul>li{Item $} *5
+#### Positioning Presentation
 
-- Books
+Great place to look at layout info: [learnlayout.com](http://learnlayout.com/)
 
-- Publishing (try it on today's demo!)
+
+Load Layout Demo Files [(Empty)](http://teaching.thomhines.com/resources/positioning_template_empty.zip) [(Complete)](http://teaching.thomhines.com/resources/positioning_template_complete.zip)
+
+
+- Make columns border-box so you can adjust paddings on each column without breaking layout
+
+- Add <span class="dropcap"> to first letter in .main paragraph to demo spans
+
+- Clearfix to make floats work out properly
+
+- Make top-right badge appear in main column, not top right of page
+
+
+
+Starting from this [multi-column template](http://teaching.thomhines.com/resources/2_col_html_template.zip) file, do the following:
+
+- Tweak Basic CSS properties (including adding classes)
+- Make multi-column
+- Add link to jQuery (and scripts.js)
+- Add events for click and hover
+
+
+
+
+
+
+
+
+
 
 
 ###### Break
 
-### Frameworks (W14:1.5hr)
-
-Benefits:
-- Takes away much of the work of coding by hand
-- Tons of useful tweaks and features like clearfix, text handling, alignment, etc.
-- Grid systems
-- Responsive
-- Form fields and the like
 
 
 
+### Media Queries Presentation
 
-- [960.gs](http://960.gs/)
-	- zip includes templates for sketching UI, and template files for most major image programs including Illustrator and Photoshop
-	- Need to wrap 960 grid in a container:
+Add to work done before break and add responsiveness
+
+Show them:
+
+- [mediaqueri.es](http://mediaqueri.es/)
+- [Responsive Doge](http://responsivememe.webflow.com/)
+
+
+
+Add the following code to the responsive_template_empty CSS file:
 	
-		`<div class="container_12">`
+	/* Responsive Styles */
 	
-	- This will create a box 4 columns wide in our grid:
+	@media screen and (max-width: 800px) {
 	
-		`<div class="grid_4">`
-
-	- This will add 3 columns of space before that same box
-	
-		`<div class="prefix_3 grid_4">`
+		body {
+			background: #513737;
+		}
 		
-	- This will add 3 columns of space *after* that same box
+		.container {
+			width: 100%;
+			margin: 10px 0;
+		}
+		
+		header, nav, .main, .sidebar {
+			width: 95%;
+			margin: 10px auto;
+		}
 	
-		`<div class="suffix_3 grid_4">`
-
-- [Fluid 960](http://www.designinfluences.com/fluid960gs/) 
-	- Requires changes to class names
-
-- [Responsive 960](https://github.com/tylerwolff/960-Responsive-Grid)
-	- add 960-responsive.css after 960.css. You're done!
-
-- [Foundation](http://foundation.zurb.com/)
-
-- [Bootstrap](http://getbootstrap.com/)
-	- Many more features, including styles for common elements and some basic jQuery plugins for creating carousels, modal dialogs, tooltips, etc.
-	- RESPONSIVE!
+		.sidebar {
+			float: none;
+		}
 	
-	- Demo: Download bootstrap, and get one of their example templates
+	
+	}
+	
+	@media screen and (max-width: 400px) {
+		
+		body {
+			background: #3a553d;
+			margin: 0;
+		}	
+		
+		.container {
+			width: 100%;
+			margin: 0;
+		}
+		
+		header, nav, .main, .sidebar {
+			width: 100%;
+			margin: 0;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+			padding: 10px;
+		}
+		
+		nav {
+			padding: 10px;
+		}
+		
+		
+		header h1 {
+			font-size: 16px;
+		}
+		
+	}
 
 
 
-- [Pure](http://purecss.io/)
-	- Similar to Bootstrap, but lighter.
-	- Breaks several components into parts (grids, forms, menus, buttons, tables)
-	- Grid system uses fractions instead of sub-columns (pure-u-1-3 for 1/3 width)
+Other Options: 
+
+- @media screen and (min-width: 900px)
+
+- @media screen and (-webkit-min-device-pixel-ratio: 2) // RETINA DISPLAYS
+
+- @media screen and (orientation: portrait)
+
+- @media screen and (orientation: landscape)
 
 
-LET'S TRY IT!
+### Introduce Project 1
 
-[Bootstrap Example](http://teaching.thomhines.com/resources/bootstrap_example.zip) ([Complete version](http://teaching.thomhines.com/resources/bootstrap_example_complete.zip)). Have students create new Coda bookmark and upload that file to the server.
+
+
 
 
 
@@ -147,9 +185,25 @@ HW
 ---------------------------------------
 Whew, what a day! Somehow, we made it through. Have a great weekend, everyone!
 
-1. **Create a 1-page site using a CSS frameworks**
+
+4. **jQuery Stuff**
+
+	Finish the "Modifying HTML Elements" lesson [jQuery Track](http://www.codecademy.com/tracks/jquery) on codecademy, and post a screen shot of your completed lesson to the blog.
+
+
+1. **Create a 1-page site using a CSS frameworks** (Do this next week, due to missing first day of class)
 
 	Using one of the frameworks we talked about in class today ([Bootstrap](http://getbootstrap.com/), [Foundation](http://foundation.zurb.com/), [Pure](http://purecss.io/), or any other comparable framework you find online, create a web page that has at least 2 columns (preferably 3 or 4, or differing amounts throughout the page), and enough filler content to make it feel kind of like a real web page. Try playing around with adding classes to buttons or form elements. If it helps, you can use the demo file from today or one of your projects from 341 to get content.
+
+1. **Create a responsive, interactive (jQuery) site**
+
+	Using media queries and jQuery, create a simple one page site that looks good at many sizes and responds to user input. 
+
+
+
+2. **Do CSS Diner**
+
+	Do all the exercises at [CSS Diner](http://flukeout.github.io/) and post a screenshot of the final page to the blog. Don't worry; it's fun!
 	
 
 2. **Collect content for Project 1**
@@ -162,9 +216,6 @@ Whew, what a day! Somehow, we made it through. Have a great weekend, everyone!
 	Just one last reminder that you should always post your HW to WordPress. If you want credit for your work, take the extra 30 seconds.
 
 
-4. **jQuery ExTrA CrEdiT!!!!**
-
-	For any of you who are interested in learning more about jQuery or want to get a small bump in their grade, finish the [jQuery Track](http://www.codecademy.com/tracks/jquery) on codecademy, and post a screen shot of your completed lessons to the blog.
 
 
 ### Useful Links
